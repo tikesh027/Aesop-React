@@ -10,6 +10,15 @@
     margin: 0;
     padding: 12px;
 }
+.first-banner > a{
+    color: #000;
+    text-decoration: none;
+    margin-left: 10px;
+}
+
+.first-banner > a:hover{
+    text-decoration: underline;
+}
 .second-banner-container{
     text-align: center;
     background-color: #252525;
