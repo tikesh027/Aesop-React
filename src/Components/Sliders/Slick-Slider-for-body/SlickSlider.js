@@ -1,5 +1,5 @@
 import React, { useRef } from "react";
-import { Swiper, SwiperSlide, useSwiper } from "swiper/react";
+import { Swiper, SwiperSlide } from "swiper/react";
 import { Navigation, Pagination, Scrollbar, A11y } from "swiper/modules";
 import "./SlickSlider.css";
 import "swiper/css";
@@ -9,8 +9,6 @@ import "swiper/css/scrollbar";
 import ArrowForwardIcon from "@mui/icons-material/ArrowForward";
 
 const SlickSlider = () => {
-  const sliderRef = useRef();
-  const swiper = useSwiper();
   return (
     <div className="wrapper">
       <Swiper
