@@ -1,0 +1,531 @@
+.home-page-image-content{
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+}
+.nav-container{
+    position: absolute;
+    width: 100%;
+}
+.img-container{
+    position: relative;
+    padding-bottom: 150px;
+}
+.label-content{
+    position: absolute;
+    display: flex;
+    margin-top: 180px;
+    margin-left: 40px;
+    gap: 180px;
+}
+.deatils-about-company{
+    font-weight: 400;
+    text-decoration: none;
+    font-size: 45px;
+    color: white;
+    letter-spacing: 1px;
+}
+.about-image-content{
+    font-weight: 400;
+    color: white;
+    width: 600px;
+    height: 300px;
+}
+.first-content{
+    font-size: .875rem;
+    font-weight: 400;
+}
+.second-content{
+    font-size: 1.875rem;
+    font-weight: 400;
+}
+.third-content{
+    font-size: 1.1rem;
+    font-weight: 400;
+    line-height: 1.7;
+}
+.discover-soap-button{
+    height: 60px;
+    width: 50%;
+    border: 2px solid white !important;
+    font-size: 12px !important;
+    color: white !important;
+    gap: 80px
+}
+.discover-soap-button:hover{
+    background-color: white !important;
+    color: black !important;
+    cursor: pointer;
+}
+.readmore-button{
+    background-color: rgba(51,51,51,.2);
+    color: black !important;
+    border: 1px solid rgb(169, 165, 165) !important;
+    height: 60px;
+    white-space: nowrap;
+    gap: 120px;
+    font-size: 5px;
+}
+.readmore-button:hover{
+    background-color: black !important;
+    color: white !important;
+    cursor: pointer;
+}
+.warm-up-content-container{
+    width: 82%;
+    padding: 50px;
+}
+.warm-up-container{
+    margin-bottom: 120px;
+    display: flex;
+    margin-left: 50px;
+    margin-right: 50px;
+    gap: 50px;
+    height: 100%;
+    width: auto;
+}
+.warm-up-image{
+    width: 100%;
+    object-fit: cover;
+}
+.post-poo-container{
+    width: 100%;
+    display: flex;
+    gap: 8%;
+    font-family: Suisse,sans-serif !important;
+    margin-bottom: 150px;
+}
+.post-poo-image{
+    width: 100%;
+    object-fit: cover;
+}
+.post-poo-content-container{
+    color: rgb(32, 31, 31) !important;
+    width: 38%;
+    margin-left: 20px;
+    padding-right: 20px;
+    margin-right: 50px;
+    display: flex;
+    flex-direction: column;
+    font-size: 16px;
+    letter-spacing: 1px !important;
+    gap: 18px;
+}
+.discover-button{
+    font-family: Suisse,sans-serif !important;
+    font-size: 12px !important;
+    width: 55%;
+    gap: 55px;
+    height: 60px;
+    color: black !important;
+    border: 1px solid rgb(169, 165, 165) !important;
+}
+.discover-button:hover{
+    background-color: black !important;
+    color: white !important;
+}
+.post-poo-content-container h1{
+    font-weight: 200 !important;
+}
+.store-locator{
+    display: flex;
+    margin-bottom: 200px;
+}
+.store-content-container{
+    color: rgb(32, 31, 31) !important;
+    width: 35%;
+    margin-left: 100px;
+    /* padding-right: 45px;
+    margin-right: 50px; */
+    display: flex;
+    flex-direction: column;
+    font-size: 16px;
+    letter-spacing: 1px !important;
+    gap: 18px;
+}
+.store-button{
+    font-family: Suisse,sans-serif !important;
+    font-size: 12px !important;
+    width: 50%;
+    gap: 30px;
+    height: 60px;
+    color: black !important;
+    border: 1px solid rgb(169, 165, 165) !important;
+}
+.store-button:hover{
+    background-color: black !important;
+    color: white !important;
+}
+.carouselContainer{
+    object-fit: contain;
+    margin-left: 50px;
+}
+.quote-container{
+    text-align: center;
+    margin-bottom: 100px;
+}
+.quote{
+    font-family: Suisse Regular,sans-serif !important;
+    text-align: center;
+    font-size: 30px;
+    font-weight: 100 !important;
+    margin-bottom: 40px;
+}
+.author-name{
+    margin-bottom: 200px;
+}
+.media-query-content{
+    display: none;
+    height: 300px;
+    background-color: black;
+}
+
+
+@media only screen and (min-width: 1000px) and (max-width: 1350px){
+    .label-content{
+        position: absolute;
+        display: flex;
+        margin-top: 120px;
+        margin-left: 30px;
+        gap: 140px;
+    }
+}
+@media only screen and (min-width: 1000px) and (max-width: 1155px){
+    .label-content{
+        position: absolute;
+        display: flex;
+        margin-top: 80px;
+        margin-left: 20px;
+        gap: 120px;
+    }
+    .deatils-about-company{
+        font-weight: 400;
+        text-decoration: none;
+        font-size: 45px;
+        color: white;
+        letter-spacing: 1px;
+    }
+    .about-image-content{
+        font-weight: 400;
+        color: white;
+        width: 100%;
+        height: 300px;
+    }
+    .first-content{
+        font-size: .775rem;
+        font-weight: 400;
+    }
+    .second-content{
+        font-size: 22px;
+        font-weight: 400;
+    }
+    .third-content{
+        font-size: 15px;
+        font-weight: 400;
+        line-height: 1.7;
+    }
+    .discover-soap-button{
+        height: 40px;
+        width: 40%;
+        border: 2px solid white !important;
+        font-size: 10px !important;
+        color: white !important;
+        gap: 100px
+    }
+}
+
+@media only screen and (min-width: 800px) and (max-width: 1000px){
+    .label-content{
+        position: absolute;
+        display: flex;
+        margin-top: 80px;
+        margin-left: 20px;
+        gap: 120px;
+    }
+    .deatils-about-company{
+        font-weight: 400;
+        text-decoration: none;
+        font-size: 35px;
+        color: white;
+        letter-spacing: 1px;
+    }
+    .about-image-content{
+        font-weight: 400;
+        color: white;
+        width: 100%;
+        height: 200px;
+    }
+    .first-content{
+        font-size: .675rem;
+        font-weight: 400;
+    }
+    .second-content{
+        font-size: 18px;
+        font-weight: 400;
+    }
+    .third-content{
+        font-size: 15px;
+        font-weight: 400;
+        line-height: 1.7;
+    }
+    .discover-soap-button{
+        height: 40px;
+        width: 40%;
+        border: 2px solid white !important;
+        font-size: 10px !important;
+        color: white !important;
+        gap: 50px
+    }
+}
+@media only screen and (min-width: 100px) and (max-width: 1000px){
+    .warm-up-container{
+        margin-bottom: 120px;
+        display: flex;
+        flex-direction: column;
+        margin-left: 50px;
+        margin-right: 50px;
+        gap: 50px;
+        height: 100%;
+        width: auto;
+    }
+    .post-poo-container{
+        width: 100%;
+        display: flex;
+        flex-direction: column;
+        gap: 8%;
+        padding: 0 30px;
+        box-sizing: border-box;
+        font-family: Suisse,sans-serif !important;
+        margin-bottom: 150px;
+    }
+    .post-poo-content-container{
+        color: #201f1f !important;
+        width: 100%;
+        margin-left: 20px;
+        padding-right: 20px;
+        margin-right: 50px;
+        display: flex;
+        flex-direction: column;
+        font-size: 16px;
+        letter-spacing: 1px !important;
+        gap: 18px;
+    }
+    .store-content-container{
+        color: rgb(32, 31, 31) !important;
+        width: 80%;
+        margin-left: 100px;
+        /* padding-right: 45px;
+        margin-right: 50px; */
+        display: flex;
+        flex-direction: column;
+        font-size: 16px;
+        letter-spacing: 1px !important;
+        gap: 18px;
+    }
+    .store-button{
+    font-family: Suisse,sans-serif !important;
+    font-size: 12px !important;
+    width: 50%;
+    white-space: nowrap;
+    gap: 30px;
+    height: 60px;
+    color: black !important;
+    border: 1px solid rgb(169, 165, 165) !important;
+}
+}
+@media only screen and (min-width: 500px) and (max-width: 800px){
+    .media-query-content{
+        display: block;
+        margin-top: -10px;
+    }
+    .img-container{
+        padding-bottom: 0;
+    }
+    .label-content{
+        position: absolute;
+        display: flex;
+        margin-top: 280px;
+        margin-left: -50px;
+        gap: 120px;
+    }
+    .deatils-about-company{
+        display: none;
+    }
+    .about-image-content{
+        font-weight: 400;
+        color: white;
+        width: 100%;
+        height: 200px;
+    }
+    .first-content{
+        font-size: 10px;
+        font-weight: 400;
+    }
+    .second-content{
+        font-size: 18px;
+        font-weight: 400;
+    }
+    .third-content{
+        font-size: 15px;
+        font-weight: 400;
+        line-height: 1.7;
+    }
+    .discover-soap-button{
+        height: 40px;
+        width: 40%;
+        border: 2px solid white !important;
+        font-size: 10px !important;
+        color: white !important;
+        gap: 35px
+    }
+    .store-locator{
+        display: flex;
+        flex-direction: column;
+        margin-bottom: 200px;
+    }
+}
+@media only screen and (min-width: 400px) and (max-width: 550px){
+    .media-query-content{
+        display: block;
+        margin-top: -10px;
+    }
+    .img-container{
+        padding-bottom: 0;
+    }
+    .label-content{
+        position: absolute;
+        display: flex;
+        margin-top: 220px;
+        margin-left: -50px;
+        gap: 120px;
+    }
+    .deatils-about-company{
+        display: none;
+    }
+    .about-image-content{
+        font-weight: 400;
+        color: white;
+        width: 100%;
+        height: 200px;
+    }
+    .first-content{
+        font-size: 10px;
+        font-weight: 400;
+    }
+    .second-content{
+        font-size: 18px;
+        font-weight: 400;
+    }
+    .third-content{
+        font-size: 15px;
+        font-weight: 400;
+        line-height: 1.7;
+    }
+    .discover-soap-button{
+        height: 40px;
+        width: 40%;
+        white-space: nowrap;
+        border: 2px solid white !important;
+        font-size: 10px !important;
+        color: white !important;
+        gap: 10px
+    }
+    
+}
+@media only screen and (min-width: 200px) and (max-width: 400px){
+    .media-query-content{
+        display: block;
+        margin-top: -10px;
+    }
+    .img-container{
+        padding-bottom: 0;
+    }
+    .label-content{
+        position: absolute;
+        display: flex;
+        margin-top: 180px;
+        margin-left: -50px;
+        gap: 120px;
+    }
+    .deatils-about-company{
+        display: none;
+    }
+    .about-image-content{
+        font-weight: 400;
+        color: white;
+        width: 100%;
+        height: 200px;
+    }
+    .first-content{
+        font-size: 10px;
+        font-weight: 400;
+    }
+    .second-content{
+        font-size: 18px;
+        font-weight: 400;
+    }
+    .third-content{
+        font-size: 15px;
+        font-weight: 400;
+        line-height: 1.7;
+    }
+    .discover-soap-button{
+        height: 40px;
+        width: 40%;
+        border: 2px solid white !important;
+        font-size: 10px !important;
+        color: white !important;
+        white-space: nowrap;
+        gap: 10px
+    }
+    
+}
+@media only screen and (min-width: 200px) and (max-width: 400px){
+    .media-query-content{
+        display: block;
+        margin-top: -10px;
+    }
+    .img-container{
+        padding-bottom: 0;
+    }
+    .label-content{
+        position: absolute;
+        display: flex;
+        margin-top: 120px;
+        margin-left: -50px;
+        gap: 120px;
+    }
+    .deatils-about-company{
+        display: none;
+    }
+    .about-image-content{
+        font-weight: 400;
+        color: white;
+        width: 100%;
+        height: 200px;
+    }
+    .first-content{
+        font-size: 10px;
+        font-weight: 400;
+    }
+    .second-content{
+        font-size: 18px;
+        font-weight: 400;
+    }
+    .third-content{
+        font-size: 15px;
+        font-weight: 400;
+        line-height: 1.7;
+    }
+    .discover-soap-button{
+        height: 40px;
+        width: 40%;
+        white-space: nowrap;
+        border: 2px solid white !important;
+        font-size: 10px !important;
+        color: white !important;
+        gap: 10px;
+        white-space: nowrap;
+    }
+    
+}

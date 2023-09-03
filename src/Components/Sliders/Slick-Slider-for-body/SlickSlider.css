@@ -1,0 +1,48 @@
+.soap-product-swiper-container{
+    height: 420px;
+    margin-bottom: 120px;
+    width: 100%;
+}
+.product-details-container{
+    height: 400px;
+    width: 100%;
+    margin-top: 60px;
+    font-family: Suisse Regular,sans-serif;
+    margin-bottom: 50px;
+    justify-content: start;
+}
+.product-details-heading h2{
+    font-weight: 100;
+}
+.product-details-heading h3{
+    font-weight: 100;
+    margin: 0;
+}
+.product-details-heading{
+    display: flex;
+    flex-direction: column;
+    font-size: 15px;
+    font-weight: 100;
+}
+.product-details-content{
+    display: flex;
+    flex-direction: column;
+    gap: 20px;
+    font-size: 15px;
+}
+.body-care-arrow{
+    display: flex;
+}
+.arrow{
+    font-size: 16px;
+    align-items: center;
+}
+.images{
+    width: 100%;
+    object-fit: contain;
+    margin: auto;
+}
+.image-discription{
+    text-align: center;
+    margin-bottom: 30px;
+}

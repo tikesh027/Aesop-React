@@ -1,0 +1,23 @@
+.first-banner-container{
+    background-color: #c2c2af;
+    font-size: 15px;
+    font-family: Suisse Regular,sans-serif;
+    text-align: center;
+    justify-content: center;
+    margin: 0;
+}
+.first-banner{
+    margin: 0;
+    padding: 12px;
+}
+.second-banner-container{
+    text-align: center;
+    background-color: #252525;
+    font-family: Suisse Regular,sans-serif;
+}
+.second-banner{
+    margin: 0;
+    padding: 12px;
+    color: #fffef2;
+    font-size: 16px;
+}

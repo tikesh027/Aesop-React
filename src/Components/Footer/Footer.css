@@ -1,0 +1,113 @@
+.main-footer{
+    background-color: #252525;
+    color: white;
+}
+.footer-container{
+    height: 500px;
+    color: white;
+    padding: 65px 50px;
+    display: flex;
+    font-family: Suisse,sans-serif !important;
+}
+
+.community-container{
+    display: flex;
+    flex-direction: column;
+    gap: 87px;
+    height: 500px;
+    width: 42%;
+    margin-right: 40px;
+    margin-top: -42px;
+}
+.community-container div{
+    padding: 10px 0;
+}
+.order-about{
+    display: flex;
+    flex-direction: column;
+    margin-right: 40px;
+    width: 20%;
+    gap: 38px;
+    letter-spacing: 1px;
+    font-size: 14px;
+    margin-top: -36px;
+}
+.order-about div{
+    padding-top: 9px;
+    padding-bottom: 9px;
+}
+.order-about div:hover{
+    cursor: pointer;
+}
+.services-socialMedia{
+    gap: 66px;
+    display: flex;
+    flex-direction: column;
+    margin-right: 40px;
+    width: 20%;
+    margin-top: -43px;
+}
+.services-socialMedia div{
+    padding-top: 9px;
+    padding-bottom: 9px;
+}
+.services-socialMedia div:hover{
+    cursor: pointer;
+}
+.location-preferences{
+    gap: 180px;
+    display: flex;
+    flex-direction: column;
+    width: 20%;
+    margin-top: -42px;
+}
+.location-preferences div{
+    padding-top: 9px;
+    padding-bottom: 9px;
+}
+.location-preferences div:hover{
+    cursor: pointer;
+}
+.call-arrow{
+    height: 16px !important;
+}
+.shipping div{
+    display: flex;
+    flex-direction: column;
+    padding: 5px 0;
+}
+.shipping{
+    margin-bottom: 15px;
+}
+.languages div{
+    padding: 2px 0;
+}
+.email-address{
+    margin-top: 30px;
+    border: 1px solid white;
+    padding: 8px;
+    border-radius: 5px;
+    align-items: center;
+    display: flex;
+    justify-content: space-between;
+}
+.email-address :hover{
+    cursor: pointer;
+}
+.checked{
+    display: flex;
+}
+.message-container{
+    padding-left: 96%;
+    margin-bottom: 20px;
+}
+.message-icon{
+    border: 0.25px solid white;
+    border-radius: 50%;
+    padding: 8px;
+}
+.aesop-icon{
+    font-size: 18px;
+    padding: 22px;
+    padding-left: 40px;
+}

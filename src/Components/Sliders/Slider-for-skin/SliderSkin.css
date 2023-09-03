@@ -1,0 +1,52 @@
+.skin-care-container{
+    height: 500px;
+    width: 100%;
+    font-family: Suisse Regular,sans-serif !important;
+    margin-bottom: 180px;
+    margin-right: 30px;
+}
+.wrapper{
+    position: relative;
+}
+.about-skin-care-container{
+    display: flex;
+    flex-direction: column;
+    justify-content: start;
+}
+.about-skin-care-container h2 {
+    margin: 0;
+    font-weight: 100;
+    font-size: 32px;
+}
+.about-skin-care-container h4 {
+    margin: 0;
+    font-weight: 100;
+}
+.skin-care-arrow{
+    display: flex;
+}
+.skin-care-details{
+    font-size: 15px;
+}
+.product-name-discription{
+    text-align: center;
+    margin-bottom: 30px;
+}
+.product-image-serum{
+    width: 100%;
+    max-height: 300px;
+    object-fit: contain;
+    margin-left: 18%;
+    margin-right: auto;
+    display: block;
+
+}
+.product-image-cream{
+    align-items: baseline;
+    object-fit: contain;
+    width: 100%;
+    max-height: 300px;
+    margin-left: auto;
+    margin-right: auto;
+    display: block;
+}

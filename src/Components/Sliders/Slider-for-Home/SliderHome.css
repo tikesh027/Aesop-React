@@ -1,0 +1,75 @@
+.slider-home{
+    padding: 80px;
+}
+.home-container{
+    height: 500px;
+    width: 100%;
+    font-family: Suisse Regular,sans-serif !important;
+    margin-bottom: 180px;
+    margin-right: 5%;
+}
+.about-home-container{
+    display: flex;
+    flex-direction: column;
+    margin-top: 80px;
+    gap: 10px;
+    justify-content: start;
+}
+.about-home-container:hover{
+    cursor: pointer;
+}
+.about-home-container h4{
+    margin: 0;
+    font-weight: 100;
+    font-size: 15px;
+}
+.about-home-container h2 {
+    margin: 0;
+    font-size: 32px;
+    font-weight: 100;
+}
+.content-of-home{
+    padding-left: 40px;
+}
+.home-arrow{
+    display: flex;
+}
+.home-details{
+    font-size: 15px;
+}
+.product-name-discription{
+    text-align: center;
+    display: flex;
+    flex-direction: column;
+    gap: 15px;
+    margin-bottom: 30px;
+}
+
+.product-name-discription div:nth-child(1):hover{
+    text-decoration: underline;
+    cursor: pointer;
+}
+.product-image{
+    object-fit: contain;
+    margin-left: auto;
+    margin-right: auto;
+    width: 100%;
+    max-height: 300px;
+    display: block;
+}
+.product-image-serum{
+    align-items: baseline;
+    object-fit: contain;
+    margin: auto;
+    width: 100%;
+    max-height: 300px;
+    display: block;
+}
+.product-image-holder{
+    object-fit: contain;
+    margin-left: auto;
+    margin-right: auto;
+    display: block;
+    width: 100%;
+    max-height: 300px;
+}
